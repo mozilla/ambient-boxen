@@ -87,4 +87,7 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # install for everyone for now
+  include ambient_mozilla
 }

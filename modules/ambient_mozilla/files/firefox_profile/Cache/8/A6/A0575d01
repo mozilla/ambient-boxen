@@ -1,0 +1,350 @@
+<div class="snippet_set" id="snippet_set" data-locale="en-US">
+  <style type="text/css">
+#snippetContainer div.snippet {
+  display: none;
+}
+
+#snippetContainer div.snippet img.icon {
+  margin: -0.75em 1em 0 0;
+  float: left;
+}
+
+  .snippet {
+    position: relative;
+  }
+
+  .snippet .icon {
+    position: absolute;
+    right: 400px;
+    top: 5px;
+  }
+
+  .snippet p {
+    display: table-cell;
+    height: 40px;
+    padding-left: 80px;
+    vertical-align: middle;
+    width: 400px;
+  }
+</style>      <div data-snippet-id="3056" data-weight="100"><!--basic-->
+      <div class="snippet">
+                <!--icon:https://lh3.googleusercontent.com/-H3scnyqWzVE/TxdVRCrj0xI/AAAAAAAAAA4/8lfMPh5Dhuo/s50/Snippets_Aurora_Affiliates.png-->
+        <img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAyCAYAAAAus5mQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0
+MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpFM0ZEM0ZCNUI1MjI2ODExOTdBNUMzNjY3OTBC
+QTgxMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCNTg1QzQ5RjNBMzgxMUUxQTY1ODhEQUY2
+QkY4OEE1OSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCNTg1QzQ5RTNBMzgxMUUxQTY1ODhE
+QUY2QkY4OEE1OSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgTWFjaW50
+b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDc4MDEx
+NzQwNzIwNjgxMUE1RTU5MTQ4RkVEMzNCQzAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RTNG
+RDNGQjVCNTIyNjgxMTk3QTVDMzY2NzkwQkE4MTEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRm
+OlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6tz8XWAAASQ0lEQVR42sRZe5hV
+1XX/ndd935l75/0ABHk5CKYiYqQqUVBD+GrUxkStiRq1SGtNGm3S2nwSTZqk1cTGL/H5ERAraqLG
+VtLwFAMIKkOCw1PkOYwD8577vufd3973zjAjmPavOvfbc+49Z+911v6ttX5rrXOUBy/5HT7Nv4c2
+f/5PXtdHfL+NYzHH7P9PBZdcuvrjp97jeJKKLxc/VN/3wfGg5RYXGbadavArUI9KRD0dEU9BNaKo
+VyoQ8zQ5mtVqjFXr5DXfynOeJucEXR+GY6NBTWC81iC/ZwtdCPG8OCeOjplGhWdgnFaPpB+CZlvy
+d7NaI+9Z5YVQ40f64Ht30bIPlhSE/CyOe1q1rhpXFhUbBTFQRM43kYWJDEceFnI8pnkly2smPLiq
+Alvxecbm3CIyHGm/wDlFzrf535FrsjxfUByYiitli/VZKdPkdSG3KEeeQ1XUBRO0xqTQSZrY9z1x
+bAgowQYhUOGNC14BPeZJ5O00AmoAQS0CV3w4NxmwEDUqUfQtireg+AY0Xivyu+PbyHNTnq8i5+Ux
+aPfCdKlKoAAoOmf5XONC49qCWM/5Co8a11ger3DoMBBXKlrKelFBLhJ/niJUoxm4y4w9iAceuQG1
+UyqhKZTN8d27nsOSp2/Fz+5dhUy3JdThx5VHjSg6XO3waMlNWshSxqNP3YPas6LobhvAj5esor00
+4irW2PJo817iTIFqO74YFsJcL2QM6TWEIG1dUtD3iYZbIAoeNry0AyuWr0YskESeSNxy9UNIBOl/
+epyb6IdNBOJ6AjpRTlv9RKEIzy0ipMUwaWoVqsZF8dC9T6DjYBGKalBuHkE1jMpANdGjWWkhi9Yx
+eZ4xAEMx6DZxee9TCPp+OXhUCKU9Kigu+qMCS8GY5lo89PTt+P7dy3Dr1y5HuCaCuqlJvPPKPrRu
+34M7vr0YoeoA8p15PPyt5bjngTu5Cvje43+DFd9fjVlzz8XkS8ZyM8DhLR147Teb8c1H7sBLj61F
+TbIC826cjUe/9Sq8bg+eKgO3DFxZ23KwyJPiv7h+xY0X4Pk1/4zHnrsTBTctzxecLH3RRZwKLrrh
+R3h66eu46c75OLjrOOZ+9ksoZIu4/kt/jqU/e03O/4evP4ZwPIBzLh2L+77+KH74zeWYdOkYhGMB
+aaEv3joX82+6EGtWvofjHb0CC64bhaBXVqqEmuLLGfL72he34wVp4irE68qUKa5xzpHdJ2HnDAaR
+jlh1BNMnJfDWtlegc3mmOw/s0uRcgyatqIgi32eh66Ms+jpNFHotjB3TiMefXkblfg6v6GLlS6tR
+Hx2Pkob+KQW98pdTd4e86PliqoHKYIP0OVVJl41dGj7/i49KBdM9eezfvB8P/uuPcXb9FFww+Tyo
+YbVsD0Z02kSY5q9vjKE2WYVgVQBHjnVg8V23IdfDyOVeFt15HV5e8TZ8sS8q6J2OIG/JcGUgMioN
+/lLLQwQPEFKCcl5Qi3KexrNivkoEo3jx2Y24/TsLsW7LSiIGvPiDjcg6eamguL5+3T5MPX8CfrL8
+fm4U2L/pODLpAubfOAuP0F8bqPSdS67Bru3t6D/EGFBOIaj8/QUvSP3qtRqGu0XtdGTcFE4U2lF0
+MggTvaiRgEludDwLMb2SZtTpkzlGpi6vu56NQfJmkUrFAwkkjFrkuLbAyK8M1CDKNWmrl5E/ICM+
+rMfktYKTQ4yyo4x68V3jhuuNRjQw0xy2j+KnrTcrwwiK7aqCCyWCASnouuuvwg13X4Jf/3Qj1m9s
+Q5CCBYIGr/kU5kiiFSiFqVgNIobLDTCtqSHJi76qUk5QWiRKqjJIKWKtxg1yd7yphgDlBaUL6bBJ
+NdK0Z/JBaXcM+Z8Lkzuadek0ZOgjF1zWgjfWbaUwD2nHkpnF8R2ikIGlFqQCWfKiUNg1SLhaBbNI
+D7LkxqKRhBeoZyLwOCclnUajb0seJMp5ErqpV0ilVZ4XFOOdyQfFCU+kMxYB4kbhqIGxLVV49am1
+uP62eYhEGQzpFFau/R7WLm3Fyl+tw8OPLUa6O4OVz6/C488+gI59/ZhwbhW+8eV/x7+R/yrHRmVU
+b/jldjz/8hr8/IVvI9eXQ/M5SfxiyRu4ZMFstMyul9z4xjPvYNXr78jAG4mgKtAqDQe2Z8l0k3fS
+NO889LVn8MRzz8DMOZg/bw4KREBEsOMyjzLbCNQd10HRzkphu//wIW6a/13ceusXEIzoWHjZ7Vi/
+shXzbr4AaqhI/vSRzRTx1at+gM1bW7H5rfcwf86NWPsfW3H5dTNhO6ZUsBTF7pCCnkTP9QR6jgyE
+PG/Y8mfjUT0ujo3ktmhNENPPn0QfMaWvSprhhkqlWonVxWED3SBCk0ZiIRxs66Rf1mLdum3QSDnR
+ijAVJD22HmTQVeGscWNwzVcux/qtL+Gqv5ojWYFllky5vo9hE4/OJDwKJRoaK9BM8z78d08SkX/E
+c4/8FpNnN6IyHkGu15RZQAvZqKiNynVeOfP4DDKVFJRLW5g4owlZswdXzr8YTt5DKpUp0QaDwycY
+V1xxISprwph70bVYQwR9DAkp1QOnmRi+ZDZZEl191RxkyfaHP+hBXXQS3lrfBos3uW7htXh37T5c
+ftMsrHjjEZqeUUznDqgRKawU/SH65AbpFqs2LaN5Z1GB7cw6usxSIlpVBtWO7fukJTa9+zpmzGyR
+91dEsSABw7CJlXeXTsazP7nXbzbGsmAsyDIoSx7Mkqd0LUgOq5A8JzhMoBUkbYjfeS8rzR0REUg+
+LDLqxc0TwVoqomLAOiFLLnG90qiGxcATUR8m5wkuzTopyY0aERcVjpARACtqvQa1rLD3m3vx7J57
+FL2ErCt3I9KS4MIQBXiaJncjQ51KRVikiigPES2VRBFi5Sx8NqCxdBcfIudJOark0Cjzt66FJSmH
+lDCVFiWXKpURGxGcGOdmAlwX4jnBHB6Dzy2XLH4ZQX2IYkp+6JZrmrIPDPkEStwoqhiXpbtc47nD
+55RydpYJ00d5flmmlFv6XTrnlr3WK5dUJd/3uVmxYU/IL88doaArKUDyIH+7UmBJVXFsnsKom3U2
+6idUIFlHE8UM6LqOfMZC95E09m07ir07jsIs6GXC98sKlUlXbFmyhNjg0HV/1HWHOogh5nhKiWZE
+bSAUnHTZlZtJI8+c1hKGki1IR/8SO/ubwJYKlXVRVCWZm0MBBAI66jhn/LRKzPkC/c5JItu5AmZ6
+K9w8Sb2fJb3lnLHV7OtuxK73p2Nn28QSqsMIu8PIn8okHu5Z8Ndvo3FGapSQru7b8bf3z0Ca0Txz
+2iCqLomTLtjB+XmoEQNKJAw9GkMgxCrHtulXjahr+RfWGhSsMKDyP4IS/i8WhIXTFMz1dmLyrg+R
+eO1C7N89k9llzHCKleYXqHrusIKL68em4J3wRO6W471j9+KrX+lAVWQLptQSsc4PEDvyWbj9LAII
+mxPXYDH1aSRktTKBQJD0QsUUlTWjMYVCmqBEl8AbWMs75IaLkZLzgpFcwMSLi4jXb4H6pIYDbSF0
+9UbKxD80ygp6HskrW1aOvv7DLbfgF4taUVPh46LzzsVZ9UkEUwMIDmyHbgUZoaQEgxUKyzJFpQkZ
+hXCJYmwSl1dSgWOUU0U/j1K6DlkAjlSwrKSf8VHXnMLCRb+H+pQOc+c0KhkqB5Y/ysSQkcGE/Xbf
+bCz9pzxqmgKIW1kEyYWaS9RMIpxi1cLSVzM1qDbJhHlLFWlP3NilAO8j+FYTj+OpnDDUZG5kIXxn
+2elOKMtyJoaCj4YxKSxYtAH2E2z0/ziZ90mUg2coF3ul3XmehmW/vAL9mo+c6yHIii7I8jjf3wOd
+dZpK3lPYHoJKg2USIeCiFBXIwGd69Iofwi38Hk6ulVnDgTl4nBJuLzXVIzoKKCMVpZL5kpJ/sXgT
+zvvMPsQTfSUEvaFU5yoSwaMnZuHN9Z0wO9rg9HUTIYf9QjdyHceZHRSalImQ9aBvmfCLHKw8PKd0
+dK0MBwuNAiM3vRt29gisbA751BgqcRXK3CVNO3z0T8EpzN3YlMK1i7dh6oz3EarsGoGgONKV3np/
+NrKpk9C8PGrDlGOx/OeklvMmoWHSODhZ9hgW2Z6KeEWSKlF2bXKXyeTIIsdhsNpCQR7NwZ2wqGi2
+f4Ccdp2UPzxcjFbYLyuZ9tHUPIir734TjeduRiKRLgeJmGgDrXtC3P0J5kOHvqYzJTHPku96etPo
+bT+JcVEX4QxTXUClldkamCz7QxESK82Rz0CjZgpLd8/yYeUGYbPJMq0iyftshO0zkKE/YsjEQiX7
+mRQaB3HZ4lXosWZh/S1Tm4dN3NmeFgQlUauoTmLewivQ1dWLEyf6eRMWqI5HtHjzPFHLsrjtoVN3
+ESEvSSWTsM0Yisws+b4+FD/Ko5gNIT9QRKEQH43gmZB0hxSlkj0+xtQN4ot3/4G5WfnGMIKkG/a4
+AfqZgwSzxf4Dh3D+RZ+hzhmk29uRI9dZrN9N1ufygRIj18uxc24QqLFwGOilP4r9hWH1suvr6UJG
+GYO6qerowPg4ihjhm2V38zt9jG0axAG3erFUUHF81NSznYzUQDe6UTALjFwXfYMRRBRO0A2kiFyU
+1YgqpLk0M9EM2nSId9pgNJIasqSguhoUO03kjuVgKb3oCeTRomSl/E9UcGi4IxH2cXQrS7K8t4x6
+KPJkyyQNa1hKxZJNCEUjONZ2ABp9qCkWRFNNCDrn9GToBq6GGpK0U6TZMwUYEbaOJtMfzxU+PIb8
+SdaUJPQ+xUJXgpvS9gKF/wW9kQjaVK49iRWvTEBH9thyfSiK55yzByuqG9DRuQvdSZUVzDgUB1Pi
+ESU6+9KoTyQwmBHR6yLPyA2TpSMBsTkbCUSgV1eg/f0DKCoxtqYaujgaJ7I/MVeXUPkk5fzR5j1y
+NIkXfzMdrbvC+N3h7UeHfXBmbBOmzb4PmdUdyOQscuAA+4UZONi6C3FDx2DKg1a0IdinQFQbaqI0
+AfMsqebEvl4UzS7ki4xcX0PGMtDpRvG1azqhpLf/35TjOHIsgWWvT0b3B+eS8iTNpHWvbOIIK5Av
+X7QZx/a2oKtjB2KklfbuFDoHbV7jdRYCFSKzMM2ZovIO5pCsihPfOCLhCE4cPMmUrqI3wzlaFc5f
+MBdTI0vIDP6Z/e5jpj3SnsAz/zkBhw6MR0PuHASUNjHbGUZQ/F07YQN2Xn0/3lwznULa0dWfxQD9
+x1JZijOCHebfIElZCQahMkiax4xD2479OH7kA1YxbCsD9chSudqWBbhj7gpWXa1nRs8frdxhKvf0
+GxOw52AjQrkJdJ8KDD1XHfZB+YMU851ZS5FO34e2P+qw8+0sqSIs98h5ZAsJNjmm0JdBd8rBoHcU
+XQwKh02OixiDux4NE+fjls8fRX3gZYhnUWcMjhHoHTpO5FZNwO6DTczhzUiqMdn9nXo2I+7qlaJH
+aBDBAK49axV6+2ahr7cGvn0IhXwXg8OUJC7k63qAvgakOtPsj+NQjQrosfHsk8/BhdOKmMA60i6K
+h0y5T0aPGehQZxJPrToLe4mcmWuSHZ8gMndEX6x7Q1APPSUkpFX+PsxQD2Cj2YLouDmocKawgOmC
+VWT1YhdlD6FpbN4DUeghVrCBJEw7hXj612hAmGXaIFQRTYp/ei3I7wOZED7srMJLm2ux93AdM5NQ
+LjrM50q58ZIKDuaclbuP1N7cdqx2WIZFJD0m/ur8Xhzq2AOHzXswPhFGpXgIbsjkLooF085jMH2U
+hcF6JPUUGsc3YKA7jE0DbHj8SZ/4+utkv4odB8PYc7SG6xoQVyslcrKxFx/21V7ZCfX/3tn3WFW8
+9ubnX51MelBlJSvegtiKeJtRK01rsUk3vW3yzYjobUW3JXsGminAoiAcqEC/Xo0t3Qa2bWNx7tdx
+vS17RJ0fzdeZZt3yb4NrQuyLw6hmzxxlQESIul8uFtmOjX4++Nv3e4/0tM/sSXiJ9HhjzERFvoZh
+0lfyoteSAllDw/It8aqGNyu9rrDZv4pHtQYVFHNMfoRZImzIdd8gYRelnCA/Bn9bimjKHfk7JF7X
+kOgd1UPYD8sx9JYhyLldzrFdLFqrhvrijGeHn8xouc8F3QEv6AcmC6Q8gYAiTCWelSqlZ9ill3uy
+URdvplz5LNmWyPqKU+5vyUseNyP6FXFOPKITDzb5XcizBTK8bqp2aXgGO0VD9sICw0HoH/S5Paxp
+vJdHPrTHxfEbHuTXu8V7O3y6fyfF69htmV89LBVcfsf0T1Wb25bu/pPX/0eAAQB2om6pZi31+AAA
+AABJRU5ErkJggg==
+" />
+        <p>Invite friends to preview upcoming Firefox features. <a href="https://affiliates.mozilla.org?WT.mc_id=affasnpt1&amp;WT.mc_ev=click"> Become an Affiliate</a>  and share Firefox Aurora today.</p>
+      </div></div>
+    <script type="text/javascript">
+//<![CDATA[
+/*!
+  * $script.js Async loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz, Jacob Thornton 2011
+  * License: MIT
+  */
+(function(a,b,c){typeof c["module"]!="undefined"&&c.module.exports?c.module.exports=b():typeof c["define"]!="undefined"&&c["define"]=="function"&&c.define.amd?define(a,b):c[a]=b()})("$script",function(){function p(a,b){for(var c=0,d=a.length;c<d;++c)if(!b(a[c]))return j;return 1}function q(a,b){p(a,function(a){return!b(a)})}function r(a,b,i){function o(a){return a.call?a():d[a]}function t(){if(!--n){d[m]=1,l&&l();for(var a in f)p(a.split("|"),o)&&!q(f[a],o)&&(f[a]=[])}}a=a[k]?a:[a];var j=b&&b.call,l=j?b:i,m=j?a.join(""):b,n=a.length;return setTimeout(function(){q(a,function(a){if(h[a])return m&&(e[m]=1),h[a]==2&&t();h[a]=1,m&&(e[m]=1),s(!c.test(a)&&g?g+a+".js":a,t)})},0),r}function s(c,d){var e=a.createElement("script"),f=j;e.onload=e.onerror=e[o]=function(){if(e[m]&&!/^c|loade/.test(e[m])||f)return;e.onload=e[o]=null,f=1,h[c]=2,d()},e.async=1,e.src=c,b.insertBefore(e,b.firstChild)}var a=document,b=a.getElementsByTagName("head")[0],c=/^https?:\/\//,d={},e={},f={},g,h={},i="string",j=!1,k="push",l="DOMContentLoaded",m="readyState",n="addEventListener",o="onreadystatechange";return!a[m]&&a[n]&&(a[n](l,function t(){a.removeEventListener(l,t,j),a[m]="complete"},j),a[m]="loading"),r.get=s,r.order=function(a,b,c){(function d(e){e=a.shift(),a.length?r(e,d):r(e,b,c)})()},r.path=function(a){g=a},r.ready=function(a,b,c){a=a[k]?a:[a];var e=[];return!q(a,function(a){d[a]||e[k](a)})&&p(a,function(a){return d[a]})?b():!function(a){f[a]=f[a]||[],f[a][k](b),c&&c(e)}(a.join("|")),r},r},this);
+
+(function(showDefaultSnippets) {
+    'use strict';
+
+    var SAMPLE_RATE = 0.1;
+    var STATS_URL = 'https://snippets-stats.mozilla.org/foo.html';
+    var GEO_URL = 'https://geo.mozilla.org/country.js';
+    var GEO_CACHE_DURATION = 1000 * 60 * 60 * 24 * 30; // 30 days
+
+    // showDefaultSnippets polyfill, available in about:home v4
+    if (typeof showDefaultSnippets !== 'function') {
+        showDefaultSnippets = function() {
+            localStorage.snippets = '';
+            showSnippets();
+        };
+    }
+
+    // gSnippetsMap polyfill, available in Firefox 22 and above.
+    var gSnippetsMap = null;
+    if (supportsLocalStorage()) {
+        // localStorage is available, so we wrap it with gSnippetsMap.
+        gSnippetsMap = {
+            set: function(key, value) {
+                localStorage[key] = value;
+            },
+            get: function(key) {
+                return localStorage[key];
+            }
+        };
+    } else {
+        // localStorage isn't available, use gSnippetsMap (backed by IndexedDB).
+        gSnippetsMap = window.gSnippetsMap;
+    }
+
+    var snippets = (document.getElementById('snippetContainer')
+                    .getElementsByClassName('snippet'));
+    var show_snippet = null;
+    if (snippets.length > 0) {
+        show_snippet = chooseSnippet(snippets);
+    }
+
+    if (show_snippet) {
+        show_snippet.style.display = 'block';
+
+        try {
+            activateSnippetsButtonClick(show_snippet);
+        } catch (err) {
+            // Do nothing, most likely a newer version of Firefox w/o
+            // activateSnippetsButtonClick
+        }
+
+        // Send impression to the snippets stats server.
+        var show_snippet_id = show_snippet.parentNode.dataset.snippetId;
+        send_impression(show_snippet_id);
+
+        // Trigger show_snippet event on snippet node.
+        var evt = document.createEvent('Event');
+        evt.initEvent('show_snippet', true, true);
+        show_snippet.dispatchEvent(evt);
+
+        // Add sample rate and snippet ID to currently displayed links.
+        var parameters = ('sample_rate=' + SAMPLE_RATE + '&snippet_name=' +
+                          show_snippet_id);
+        modifyLinks(show_snippet.getElementsByTagName('a'), parameters);
+    } else {
+        showDefaultSnippets();
+    }
+
+    // Fetch user country if we don't have it.
+    if (!haveUserCountry()) {
+        downloadUserCountry();
+    }
+
+            // Choose which snippet to display to the user based on various factors,
+    // such as which country they are in.
+    function chooseSnippet(snippets) {
+        // Build an object that maps countries to snippets.
+        var snippetsFor = {};
+
+        for (var k = 0; k < snippets.length; k++) {
+            var snippet = snippets[k];
+            var country = snippet.parentNode.dataset.country || 'none';
+
+            // Create a new entry in the object if it doesn't exist.
+            if (snippetsFor.hasOwnProperty(country)) {
+                snippetsFor[country].push(snippet);
+            } else {
+                snippetsFor[country] = [snippet];
+            }
+        }
+
+        // Choose a random snippet from the set of non-geolocated snippets,
+        // including snippets for the user's country if it is available.
+        var country = getUserCountry();
+        if (country && snippetsFor.hasOwnProperty(country)) {
+            snippets = snippetsFor[country];
+            if (snippetsFor.none) {
+                snippets = snippets.concat(snippetsFor.none);
+            }
+        } else {
+            snippets = snippetsFor.none;
+        }
+
+        if (snippets && snippets.length) {
+            var sum = 0;
+            for (var k = 0; k < snippets.length; k++) {
+                sum += parseInt(snippets[k].parentNode.dataset.weight, 10) || 100;
+                snippets[k].parentNode.dataset.weight = sum;
+            }
+            var random_number = Math.random() * sum;
+            for (var k = 0; k < snippets.length; k++) {
+                if (random_number < snippets[k].parentNode.dataset.weight) {
+                    return snippets[k];
+                }
+            }
+        } else {
+            return null;
+        }
+    }
+    
+    // Check whether we have the user's country stored and if it is still valid.
+    function haveUserCountry() {
+        // Check if there's an existing country code to use.
+        if (gSnippetsMap.get('geoCountry')) {
+            // Make sure we have a valid lastUpdated date.
+            var lastUpdated = Date.parse(gSnippetsMap.get('geoLastUpdated'));
+            if (lastUpdated) {
+                // Make sure that it is past the lastUpdated date.
+                var now = new Date();
+                if (now < lastUpdated + GEO_CACHE_DURATION) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    function getUserCountry() {
+        if (haveUserCountry()) {
+            return gSnippetsMap.get('geoCountry').toLowerCase();
+        } else {
+            return null;
+        }
+    }
+
+    // Download the user's country using the geolocation service.
+    function downloadUserCountry() {
+        $script(GEO_URL, 'geo');
+        $script.ready('geo', function() {
+            try {
+                gSnippetsMap.set('geoCountry', geoip_country_code());
+                gSnippetsMap.set('geoLastUpdated', new Date());
+            } catch (e) {
+                // Most likely failed to load JS file. Continue on without us,
+                // we'll try again next time.
+            }
+        });
+    }
+
+    // Notifies stats server that the given snippet ID
+    // was shown. No personally-identifiable information
+    // is sent.
+    function send_impression(id) {
+        if (Math.random() <= SAMPLE_RATE) {
+            var locale = document.getElementById('snippet_set').getAttribute('data-locale');
+            var url = STATS_URL + '?snippet_name=' + id + '&locale=' + locale;
+            var r = new XMLHttpRequest();
+            r.open('GET', url);
+            r.send();
+        }
+    }
+    // Modifies the given links to include the specified GET parameters.
+    function modifyLinks(links, parameters) {
+        for (var k = 0, len = links.length; k < len; k++) {
+            var link = links[k];
+            var delimeter = (link.href.indexOf('?') !== -1 ? '&' : '?');
+
+            // Pull the fragment off of the link
+            var fragment_position = link.href.indexOf('#');
+            if (fragment_position === -1) {
+                fragment_position = link.href.length;
+            }
+
+            var href = link.href.substring(0, fragment_position);
+            var fragment = link.href.substring(fragment_position);
+
+            link.href = href + delimeter + parameters + fragment;
+        }
+    }
+
+    // Check for localStorage support. Copied from Modernizr.
+    function supportsLocalStorage() {
+        var s = 'snippets-test';
+        try {
+            localStorage.setItem(s, s);
+            localStorage.removeItem(s);
+            return true;
+        } catch(e) {
+            return false;
+        }
+    }
+
+})(window.showDefaultSnippets);
+//]]>
+</script></div>
+<!-- Content generated at 2014-04-20T05:23:41Z -->
