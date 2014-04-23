@@ -2,6 +2,17 @@
 class ambient_mozilla{
   include firefox::aurora
 
-  exec { '/Applications/FirefoxAurora.app/Contents/MacOSX/firefox -profile /opt/boxen/repo/modules/ambient_mozilla/files/firefox_profile'}
+  file { "${boxen::config::home}/profile":
+    ensure => 'directory',
+    alias  => 'copy_profile',
+    source => "${boxen::config::repodir}/modules/ambient_mozilla/files/profile"
+  }
+
+  exec { 'start_firefox':
+    command =>
+    "/Applications/FirefoxAurora.app/Contents/MacOSX/firefox \
+      -profile ${boxen::config::home}/profile",
+    after   => 'copy_profile' 
+  }
 
 }
