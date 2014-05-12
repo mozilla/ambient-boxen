@@ -12,7 +12,7 @@ class ambient_mozilla{
     command =>
     "/Applications/FirefoxAurora.app/Contents/MacOSX/firefox
       -profile ${boxen::config::home}/profile",
-    after   => 'copy_profile',
+    require => 'copy_profile',
   }
 
 }
