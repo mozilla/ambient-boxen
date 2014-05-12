@@ -7,12 +7,11 @@ class ambient_mozilla{
     source => "${boxen::config::repodir}/modules/ambient_mozilla/files/profile",
   }
 
-  exec { 'start_firefox':
-    command   =>
-    "/Applications/FirefoxAurora.app/Contents/MacOSX/firefox
-      -profile ${boxen::config::home}/profile",
-    subscribe => File["${boxen::config::home}/profile"]
-,
-  }
+#  exec { 'start_firefox':
+#    command   =>
+#    "/Applications/FirefoxAurora.app/Contents/MacOSX/firefox
+#      -profile ${boxen::config::home}/profile",
+#    subscribe => File["${boxen::config::home}/profile"],
+#  }
 
 }
