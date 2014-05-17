@@ -89,5 +89,5 @@ node default {
   }
 
   # install for everyone for now
-  include ambient_mozilla
+  #include ambient_mozilla
 }
