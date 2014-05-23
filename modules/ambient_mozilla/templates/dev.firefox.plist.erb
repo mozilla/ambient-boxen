@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>dev.firefox</string>
+
+    <key>Firefox</key>
+    <dict>
+      <key>Description</key>
+      <string>It's just Firefox. Firefox and its adventures, Firefox FOREVER AND FOREVER A HUNDRED YEARS Firefox.. some...things.. Me and Firefox runnin' around and... Firefox time... a- all day long forever.. all a - a hundred days Firefox! forever a hundred times.... OVER and over Firefox... adventures dot com.. W W W dot at Firefox dot com w..w..w... Firefox adventures.. ah- hundred years..... every minute Firefox dot com.... w w w a hundred times... Firefox dot com.......</string>
+    </dict>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string><%= scope.lookupvar "firefox::config::executable" %></string>
+      <string>-profile <%= scope.lookupvar "boxen::config::home}/profile" %></string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true />
+
+    <key>KeepAlive</key>
+    <true />
+
+    <key>UserName</key>
+    <string><%= scope.lookupvar("::boxen_user") %></string>
+
+    <key>WorkingDirectory</key>
+    <string><%= scope.lookupvar "firefox::config::datadir" %></string>
+
+    <key>StandardErrorPath</key>
+    <string><%= scope.lookupvar "firefox::config::logfile" %></string>
+
+    <key>StandardOutPath</key>
+    <string><%= scope.lookupvar "firefox::config::logfile" %></string>
+  </dict>
+</plist>

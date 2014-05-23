@@ -4,14 +4,22 @@ class ambient_mozilla{
 
   file { "${boxen::config::home}/profile":
     ensure => 'directory',
-    source => "${boxen::config::repodir}/modules/ambient_mozilla/files/profile",
   }
 
-#  exec { 'start_firefox':
-#    command   =>
-#    "/Applications/FirefoxAurora.app/Contents/MacOSX/firefox
-#      -profile ${boxen::config::home}/profile",
-#    subscribe => File["${boxen::config::home}/profile"],
-#  }
+  file { "${boxen::config::home}/profile/prefs.js":
+    source => "${boxen::config::repodir}/modules/ambient_mozilla/files/FirefoxPrefs.js",
+    after => File["${boxen::config::home}/profile"],
+    notify => Service['dev.firefox']
+  }
+
+  file { "/Library/LaunchDaemons/dev.firefox.plist":
+    content => template("ambient_mozilla/dev.firefox.plist.erb"),
+    notify  => Service['dev.firefox']
+  }
+
+  service { "dev.firefox":
+    ensure  => running,
+    require => Package['Firefox-Aurora']
+  }
 
 }
