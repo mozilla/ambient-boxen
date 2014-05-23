@@ -8,7 +8,7 @@ class ambient_mozilla{
 
   file { "${boxen::config::home}/profile/prefs.js":
     source => "${boxen::config::repodir}/modules/ambient_mozilla/files/FirefoxPrefs.js",
-    after => File["${boxen::config::home}/profile"],
+    after  => File["${boxen::config::home}/profile"],
     notify => Service['dev.firefox']
   }
 
