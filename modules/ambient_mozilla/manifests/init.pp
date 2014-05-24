@@ -15,6 +15,8 @@ class ambient_mozilla{
   file { "/Library/LaunchDaemons/dev.firefox.plist":
     content => template("ambient_mozilla/dev.firefox.plist.erb"),
     notify  => Service['dev.firefox']
+    group   => 'wheel',
+    owner   => 'root'
   }
 
   service { "dev.firefox":
