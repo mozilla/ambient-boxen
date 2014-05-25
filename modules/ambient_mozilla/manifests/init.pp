@@ -10,7 +10,7 @@ class ambient_mozilla{
     source  => "${boxen::config::repodir}/modules/ambient_mozilla/files/FirefoxPrefs.js",
     require => File["${boxen::config::home}/profile"],
     notify  => Service['dev.firefox'],
-    force   => 'true'
+    force   => true
   }
 
   file { "/Library/LaunchDaemons/dev.firefox.plist":
