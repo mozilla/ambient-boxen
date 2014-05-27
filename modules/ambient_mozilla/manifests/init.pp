@@ -6,7 +6,7 @@ class ambient_mozilla{
     ensure => 'directory',
   }
 
-  file { "${boxen::config::home}/profile/prefs.js":
+  file { "${boxen::config::home}/profile/user.js":
     source  => "${boxen::config::repodir}/modules/ambient_mozilla/files/FirefoxPrefs.js",
     require => File["${boxen::config::home}/profile"],
     notify  => Service['dev.firefox'],
