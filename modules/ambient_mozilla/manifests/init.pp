@@ -2,13 +2,15 @@
 class ambient_mozilla{
   include firefox::aurora
 
-  file { "${boxen::config::home}/profile":
-    ensure => 'directory',
+  exec { "create_firefox_profile":
+    command => "/Applications/FirefoxAurora.app/Contents/MacOS/firefox -CreateProfile \"ambient_mozilla ${boxen::config::home}/firefox_profile\"",
+    creates => "${boxen::config::home}/firefox_profile",
+    require => Package['Firefox-Aurora']
   }
 
   file { "${boxen::config::home}/profile/user.js":
     source  => "${boxen::config::repodir}/modules/ambient_mozilla/files/FirefoxPrefs.js",
-    require => File["${boxen::config::home}/profile"],
+    require => Exec["create_firefox_profile"],
     notify  => Service['dev.firefox'],
     force   => true
   }
