@@ -61,5 +61,5 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github "firefox", "1.2.1"
-github "iterm2", "1.0.9"
+github "iterm2", "1.1.0"
 github "osx", "2.5.0"
