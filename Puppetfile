@@ -62,4 +62,4 @@ github "xquartz",     "1.1.1"
 
 github "firefox", "1.2.1"
 github "iterm2", "1.0.9"
-githubg "osx", "2.5.0"
+github "osx", "2.5.0"

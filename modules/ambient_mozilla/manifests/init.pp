@@ -1,7 +1,7 @@
 # Public: set up a machine to be an ambient mozilla display
 class ambient_mozilla{
   include firefox::aurora
-  include iterm2
+  include iterm2::dev
 
   include osx::software_update
 
