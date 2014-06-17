@@ -13,7 +13,7 @@ class ambient_mozilla{
     require => Package['Firefox-Aurora']
   }
 
-  file { "${ambient_mozilla::config::profiledir}/user.js":
+  file { "${ambient_mozilla::config::profiledir}/prefs.js":
     source  => "${boxen::config::repodir}/modules/ambient_mozilla/files/FirefoxPrefs.js",
     require => Exec["create_firefox_profile"],
     notify  => Service['dev.firefox'],
