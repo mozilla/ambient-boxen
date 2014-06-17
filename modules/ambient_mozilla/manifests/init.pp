@@ -15,9 +15,9 @@ class ambient_mozilla{
 
   file { "${ambient_mozilla::config::profiledir}/prefs.js":
     source  => "${boxen::config::repodir}/modules/ambient_mozilla/files/FirefoxPrefs.js",
-    require => Exec["create_firefox_profile"],
-    notify  => Service['dev.firefox'],
-    force   => true
+    require => Exec["shutdown-firefox"],
+    before  => Service['dev.firefox'],
+    force   => true,
   }
 
   file { "/Library/LaunchDaemons/dev.firefox.plist":
@@ -27,8 +27,14 @@ class ambient_mozilla{
     owner   => 'root'
   }
 
+  exec { "shutdown-firefox":
+    command => 'launchctl stop dev.firefox && pkill -term firefox && sleep 1',
+    require => Exec["create_firefox_profile"],
+  }
+
   service { "dev.firefox":
     ensure  => running,
+    enabled => True,
     require => Package['Firefox-Aurora']
   }
 
