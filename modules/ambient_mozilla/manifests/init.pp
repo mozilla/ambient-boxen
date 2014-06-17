@@ -10,7 +10,11 @@ class ambient_mozilla{
   exec { "create_firefox_profile":
     command => "/Applications/FirefoxAurora.app/Contents/MacOS/firefox -CreateProfile \"ambient_mozilla ${ambient_mozilla::config::profiledir}\"",
     creates => "${ambient_mozilla::config::profiledir}",
-    require => Package['Firefox-Aurora']
+    force   => true,
+    purge   => true,
+    recurve => true,
+    require => Package['Firefox-Aurora'],
+    require => exec['shutdown-firefox']
   }
 
   file { "${ambient_mozilla::config::profiledir}/prefs.js":
@@ -35,7 +39,8 @@ class ambient_mozilla{
   service { "dev.firefox":
     ensure  => running,
     enabled => True,
-    require => Package['Firefox-Aurora']
+    require => Package['Firefox-Aurora'],
+    require => Exec['create_firefox_profile']
   }
 
   file { "/Users/airmozilla/Library/Application Support/Firefox/profiles.ini":
