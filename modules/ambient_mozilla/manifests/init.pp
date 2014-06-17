@@ -13,8 +13,7 @@ class ambient_mozilla{
     force   => true,
     purge   => true,
     recurve => true,
-    require => Package['Firefox-Aurora'],
-    require => exec['shutdown-firefox']
+    require => [Package['Firefox-Aurora'], Exec['shutdown-firefox']],
   }
 
   file { "${ambient_mozilla::config::profiledir}/prefs.js":
@@ -28,7 +27,7 @@ class ambient_mozilla{
     content => template("ambient_mozilla/dev.firefox.plist.erb"),
     notify  => Service['dev.firefox'],
     group   => 'wheel',
-    owner   => 'root'
+    owner   => 'root',
   }
 
   exec { "shutdown-firefox":
@@ -39,8 +38,7 @@ class ambient_mozilla{
   service { "dev.firefox":
     ensure  => running,
     enabled => True,
-    require => Package['Firefox-Aurora'],
-    require => Exec['create_firefox_profile']
+    require => [Package['Firefox-Aurora'], Exec['create_firefox_profile']],
   }
 
   file { "/Users/airmozilla/Library/Application Support/Firefox/profiles.ini":
