@@ -7,13 +7,16 @@ class ambient_mozilla{
 
   include osx::software_update
 
-  exec { "create_firefox_profile":
+  exec { "create-firefox-profile":
     command => "/Applications/FirefoxAurora.app/Contents/MacOS/firefox -CreateProfile \"ambient_mozilla ${ambient_mozilla::config::profiledir}\"",
     creates => "${ambient_mozilla::config::profiledir}",
-    force   => true,
-    purge   => true,
-    recurve => true,
     require => [Package['Firefox-Aurora'], Exec['shutdown-firefox']],
+  }
+
+  exec { "refresh-firefox-profile":
+    command => "rm -rf ${ambient_mozilla::config::profiledir}",
+    onlyif  => "test -d ${ambient_mozilla::config::profiledir}",
+    before  => Exec["create-firefox-profile"]
   }
 
   file { "${ambient_mozilla::config::profiledir}/prefs.js":
@@ -32,7 +35,7 @@ class ambient_mozilla{
 
   exec { "shutdown-firefox":
     command => 'launchctl stop dev.firefox && pkill -term firefox && sleep 1',
-    require => Exec["create_firefox_profile"],
+    require => Exec["create-firefox-profile"],
   }
 
   service { "dev.firefox":
