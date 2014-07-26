@@ -1,5 +1,3 @@
-/* A full profile will be created from these preferences. */
-
 user_pref("app.update.auto", false);
 user_pref("app.update.enabled", false);
 user_pref("browser.showedAustralisWhatsNew", true);

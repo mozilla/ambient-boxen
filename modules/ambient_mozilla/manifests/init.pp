@@ -10,19 +10,12 @@ class ambient_mozilla{
   exec { "create-firefox-profile":
     command => "/Applications/FirefoxAurora.app/Contents/MacOS/firefox -CreateProfile \"ambient_mozilla ${ambient_mozilla::config::profiledir}\"",
     creates => "${ambient_mozilla::config::profiledir}",
-    require => [Package['Firefox-Aurora'], Exec['shutdown-firefox']],
+    require => Package['Firefox-Aurora'],
   }
 
-  exec { "refresh-firefox-profile":
-    command => "rm -rf ${ambient_mozilla::config::profiledir}",
-    onlyif  => "test -d ${ambient_mozilla::config::profiledir}",
-    before  => Exec["create-firefox-profile"]
-  }
-
-  file { "${ambient_mozilla::config::profiledir}/prefs.js":
+  file { "${ambient_mozilla::config::profiledir}/user.js":
     source  => "${boxen::config::repodir}/modules/ambient_mozilla/files/FirefoxPrefs.js",
-    require => Exec["shutdown-firefox"],
-    before  => Service['dev.firefox'],
+    notify  => Service['dev.firefox'],
     force   => true,
   }
 
@@ -33,15 +26,9 @@ class ambient_mozilla{
     owner   => 'root',
   }
 
-  exec { "shutdown-firefox":
-    command => 'launchctl stop dev.firefox && pkill -term firefox && sleep 1',
-    require => Exec["create-firefox-profile"],
-  }
-
   service { "dev.firefox":
     ensure  => running,
-    enabled => True,
-    require => [Package['Firefox-Aurora'], Exec['create_firefox_profile']],
+    require => [Package['Firefox-Aurora'], Exec['create-firefox-profile']],
   }
 
   file { "/Users/airmozilla/Library/Application Support/Firefox/profiles.ini":
@@ -50,5 +37,4 @@ class ambient_mozilla{
     owner   => 'root',
     notify  => Service["dev.firefox"],
   }
-
 }
