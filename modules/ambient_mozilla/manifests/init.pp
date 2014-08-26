@@ -37,4 +37,26 @@ class ambient_mozilla{
     owner   => 'root',
     notify  => Service["dev.firefox"],
   }
+
+  include brewcask
+
+  package { 'consul': provider => 'brewcask' }
+
+  service { "dev.consul":
+    ensure  => running,
+    require => Package['consul'],
+  }
+
+  file { "/Library/LaunchDaemons/dev.consul.plist":
+    content => template("ambient_mozilla/dev.consul.plist.erb"),
+    notify  => Service['dev.consul'],
+    group   => 'wheel',
+    owner   => 'root',
+  }
+
+  file { "${boxen::config::configdir}/consul":
+    ensure  => directory,
+    source  => "${boxen::config::repodir}/modules/ambient_mozilla/files/consul/",
+    recurse => true,
+  }
 }
