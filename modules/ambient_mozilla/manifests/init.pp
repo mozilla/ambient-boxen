@@ -40,7 +40,9 @@ class ambient_mozilla{
 
   include brewcask
 
-  package { 'consul': provider => 'brewcask' }
+  package { 'consul':
+    provider => 'brewcask',
+  }
 
   service { "dev.consul":
     ensure  => running,
